@@ -2,12 +2,13 @@
 #define COLA_H
 
 #include "../lista/lista.h"
+#include <stdbool.h>
 
 typedef Lista Cola;
 
 Cola* cola_crear();
 
-int cola_vacia(Cola* cola);
+bool cola_vacia(Cola* cola);
 
 /*
 TODO
